@@ -34,7 +34,7 @@ html {
 
 .container {
   width: 600px;
-  height: 600px;
+  height: 800px;
   background-color: #f2eecb;
   border-radius: 4px;
 
@@ -66,8 +66,42 @@ html {
   background: unset;
   border: unset;
   outline: unset;
+  cursor: pointer;
 
   font-size: 1.8rem;
   font-family: "Bungee", sans-serif;
-  padding: 24px;
+  padding: 16px;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: flex-start;
+}
+
+.add-input {
+  border: unset;
+  background: unset;
+  outline: unset;
+  padding: 0 64px;
+
+  flex: 1;
+  border-bottom: 1px solid var(--main-red-color);
+
+  font-size: 16px;
+  font-family: "Homemade Apple", sans-serif;
+  text-transform: lowercase;
+}
+
+.add-btn {
+  background: unset;
+  border: unset;
+  padding: 16px;
+  padding-right: unset;
+
+  font-size: 1.8rem;
+  font-family: "Bungee", sans-serif;
 }
